@@ -26,6 +26,11 @@ public class Main {
                     A[j] = nextNum;
                     A[j+1] = curNum;
                 }
+                // Checking the answer
+                for (int  k = 0; k < N; k++) {
+                    System.out.print(A[k] + " ");
+                }
+                System.out.println(" ");
             }
         }
         // Checking the answer
